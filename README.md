@@ -69,71 +69,127 @@ Jawab:
 Setelah mengubah initial dan goat state dari program yang diberikan dengan initial = 3 1 2 4 7 5 6 8 0  dan goat state = 1 2 3 4 0 8 5 6 7 , ditemukan hasil penyelesaian sebagai berikut:
 
  1 2 3 4 5 6 7 8 0 
+ 
  1 2 3 4 5 6 7 0 8
+ 
  1 2 3 4 0 6 7 5 8
+ 
  1 2 3 4 6 0 7 5 8
+ 
  1 2 0 4 6 3 7 5 8
+ 
  1 0 2 4 6 3 7 5 8
+ 
  0 1 2 4 6 3 7 5 8
+ 
  4 1 2 0 6 3 7 5 8
+ 
  4 1 2 6 0 3 7 5 8
+ 
  4 1 2 6 5 3 7 0 8
+ 
  4 1 2 6 5 3 0 7 8
+ 
  4 1 2 0 5 3 6 7 8
+ 
  0 1 2 4 5 3 6 7 8
+ 
  1 0 2 4 5 3 6 7 8
+ 
  1 2 0 4 5 3 6 7 8
+ 
  1 2 3 4 5 0 6 7 8
+ 
  1 2 3 4 0 8 5 6 7 
+ 
 
 **3.	Ubahlah initial dan goal state dari program di atas sehingga bentuk initial dan goal state-nya Gambar 5.9. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal state. Analisa dan bedakan dengan solusi pada point 1 dan 2.**
 
 Jawab:
 Setelah mengubah initial dan goat state dari program yang diberikan dengan initial = 1 5 3 4 6 8 2 7 0  dan goat state = 7 6 5 8 0 4 1 2 3, ditemukan hasil penyelesaian sebagai berikut:
 1 5 3 4 6 8 2 7 0
+
 1 5 3 4 6 0 2 7 8
+
 1 5 0 4 6 3 2 7 8
+
 1 0 5 4 6 3 2 7 8
+
 1 6 5 4 0 3 2 7 8
+
 1 6 5 4 7 3 2 0 8
+
 1 6 5 4 7 3 2 8 0
+
 1 6 5 4 7 0 2 8 3
+
 1 6 0 4 7 5 2 8 3
+
 1 0 6 4 7 5 2 8 3
+
 1 7 6 4 0 5 2 8 3
+
 1 7 6 0 4 5 2 8 3
+
 0 7 6 1 4 5 2 8 3
+
 7 0 6 1 4 5 2 8 3
+
 7 6 0 1 4 5 2 8 3
+
 7 6 5 1 4 0 2 8 3
+
 7 6 5 1 4 0 2 8 3
+
 7 6 5 1 0 4 2 8 3
+
 7 6 5 1 8 4 2 0 3
+
 7 6 5 1 8 4 0 2 3
+
 7 6 5 0 8 4 1 2 3
+
 7 6 5 8 0 4 1 2 3
+
 
 **4.	Ubahlah initial dan goal state dari program di atas sehingga bentuk initial dan goal state-nya Gambar 5.10. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal state. Analisa dan bedakan dengan solusi pada point 1, 2, dan 3.**
 
 Jawab:
 Setelah mengubah initial dan goat state dari program yang diberikan dengan initial = 1 2 3 4 5 6 7 8 0  dan goat state = 1 2 3 4 0 5 6 7 8, ditemukan hasil penyelesaian sebagai berikut:
  1 2 3 4 5 6 7 8 0 
+ 
  1 2 3 4 5 6 7 0 8
+ 
  1 2 3 4 0 6 7 5 8
+ 
  1 2 3 4 6 0 7 5 8
+ 
  1 2 0 4 6 3 7 5 8
+ 
  1 0 2 4 6 3 7 5 8
+ 
  0 1 2 4 6 3 7 5 8
+ 
  4 1 2 0 6 3 7 5 8
+ 
  4 1 2 6 0 3 7 5 8
+ 
  4 1 2 6 5 3 7 0 8
+ 
  4 1 2 6 5 3 0 7 8
+ 
  4 1 2 0 5 3 6 7 8
+ 
  0 1 2 4 5 3 6 7 8
+ 
  1 0 2 4 5 3 6 7 8
+ 
  1 2 0 4 5 3 6 7 8
+ 
  1 2 3 4 5 0 6 7 8
+ 
  1 2 3 4 0 5 6 7 8
+ 
 
 **5.	Ubahlah initial dan goal state dari program dan class-class di atas sehingga bentuk initial dan goal state-nya Gambar 5.11. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal state.**
 Jawab:
@@ -150,20 +206,36 @@ Kosong = 0
 
 ditemukan hasil penyelesaian sebagai berikut:
 4 2 5 1 0 7 8 3 6
+
 4 2 5 0 1 7 8 3 6
+
 4 2 5 1 0 7 8 6 3
+
 4 2 5 1 4 7 8 6 3
+
 4 2 5 1 7 0 8 6 3
+
 4 2 5 1 7 8 0 6 3
+
 4 2 5 1 0 8 7 6 3
+
 4 2 5 0 1 8 7 6 3
+
 4 2 5 6 0 8 7 1 3
+
 4 2 5 6 8 0 7 1 3
+
 4 2 5 6 8 1 7 0 3
+
 4 2 5 6 8 1 0 7 3
+
 4 2 5 6 8 1 3 7 0
+
 4 2 5 6 8 1 3 0 7
+
 4 2 5 6 1 8 3 0 7
+
 4 2 5 6 1 3 8 0 7
+
 4 2 5 6 1 3 8 7 0
 
